@@ -48,7 +48,9 @@ a {
 }
 
 .bilde {
-    flex: 1;
+    flex: none;
+    width: 60%;
+    height: auto;
     padding: 20px;
 }
 
@@ -84,8 +86,17 @@ h2, p {
     border: 2px solid #FF9800;
 }
 
-.savanne-img{
-    margin-left: 110px;
+.bilde.savanne-img{
+    margin: 0 auto;
+    width: 680px;
+    max-width: none;
+    height: auto;
+    padding: 20px; 
+    text-align: center;
+}
+
+.bilde.bilde.savanne-img img{
+    width: 100%;
 }
 
 
